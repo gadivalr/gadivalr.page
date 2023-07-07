@@ -1,0 +1,25 @@
+---
+title: Galería
+permalink: /dibujitos/
+layout: page
+---
+
+
+
+
+<div class="grid">
+  {% for imagen in site.data.galeria %}
+    <div class="grid-item">
+      <a href="{{ imagen.url }}" data-lightbox="gallery" data-title="{{ imagen.descripcion }}">
+        <img src="{{ imagen.url }}" alt="{{ imagen.nombre }}">
+      </a>
+    </div>
+  {% endfor %}
+</div>
+
+<!-- Incluir los archivos CSS y JavaScript de lightbox2 -->
+<link rel="stylesheet" href="/assets/js/lightbox2/dist/css/lightbox.min.css">
+<script src="/assets/js/jquery/dist/jquery.min.js"></script>
+<script src="/assets/js/lightbox2/dist/js/lightbox.min.js"></script>
+
+
