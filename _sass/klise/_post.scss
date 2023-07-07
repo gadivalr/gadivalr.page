@@ -8,8 +8,10 @@
   .contenedor {
     width: 100%;
     height: 400px; 
+    border-radius: 5px;
     @include media-query($on-desktop) {
       height: 300px; 
+
     } 
     overflow: hidden; 
   }
