@@ -36,7 +36,7 @@ No estudie nada 🙃,  además que no pude ir a la clase de la mañana. La noche
 Los dejo con un hermoso panel de Batman. 
 <br>
 <hr>
-![20230613_012405](https://github.com/gadivalr/gadivalr.github.io/assets/126745302/b4bf211c-8e75-401d-a750-ab812640ccbe)
+![1687377616155](https://github.com/gadivalr/gadivalr.github.io/assets/126745302/2a49d3db-335a-4cc6-9b17-8c19e51f5e85)
 <figcaption>Batman</figcaption>
 
 ### Día 3
