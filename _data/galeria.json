@@ -1,23 +1,34 @@
 [
     {
       "nombre": "Imagen 1",
-      "url": "https://th.bing.com/th/id/OIP.EDifmS1lIZw0MI2p9IBbuAHaI4?pid=ImgDet&rs=1",
-      "descripcion": "Vagabond"
+      "url": "https://res.cloudinary.com/dacwrjdao/image/upload/v1678848773/jutxtobwqjk9ebllgiux.webp",
+      "descripcion": "Saitama"
     },
     {
       "nombre": "Imagen 2",
-      "url": "https://th.bing.com/th/id/OIP.Pt7O6OagYCaoqRktr5I-aQHaKb?pid=ImgDet&rs=1",
-      "descripcion": "Guts"
+      "url": "https://res.cloudinary.com/dacwrjdao/image/upload/v1678972859/xfixocw7hghdbcszcwkz.jpg",
+      "descripcion": "Bleach"
     },
     {
       "nombre": "Imagen 3",
-      "url": "https://th.bing.com/th/id/R.311a14540080bae596428f7927fa5ceb?rik=fxZTOahn3Sqvjw&pid=ImgRaw&r=0",
-      "descripcion": "Guts 2"
+      "url": "https://res.cloudinary.com/dacwrjdao/image/upload/v1678973017/bjugqjczmg2fsmdhlru6.webp",
+      "descripcion": "Griffith"
     },
     {
       "nombre": "Imagen 4",
-      "url":"http://p0.ifengimg.com/pmop/2018/0905/8B67D7322DD4AA3C0BB1DD0E99AA8855E6E7A7D7_size227_w690_h1068.jpeg",
-      "descripcion": "Sakuragi Hanamichi"
+      "url":"https://res.cloudinary.com/dacwrjdao/image/upload/v1678847990/cwcq2rc9ric6le4scusx.jpg",
+      "descripcion": "Batman"
+    },
+    {
+      "nombre": "Imagen 5",
+      "url":"https://res.cloudinary.com/dacwrjdao/image/upload/v1679083530/mvfz1q6oyo6dwukog7hx.webp",
+      "descripcion": "Jjk"
+    },
+    {
+      "nombre": "Imagen 6",
+      "url":"https://res.cloudinary.com/dacwrjdao/image/upload/v1679083730/ceheqeenkhtrmks3npmx.jpg",
+      "descripcion": "Akaza"
     }
+
   ]
   
