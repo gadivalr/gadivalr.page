@@ -207,7 +207,10 @@
     
   }
 }
+.grid a{
+  min-width: 100%;
 
+}
 .grid-item {
   position: relative;
   display: flex;
