@@ -1,32 +1,32 @@
 [
     {
-      "nombre": "Imagen 1",
-      "url": "https://res.cloudinary.com/dacwrjdao/image/upload/v1678848773/jutxtobwqjk9ebllgiux.webp",
+      "nombre": "Saitama",
+      "url": "/assets/img/Dibujos/Saitama.jpg",
       "descripcion": "Saitama"
     },
     {
-      "nombre": "Imagen 2",
-      "url": "https://res.cloudinary.com/dacwrjdao/image/upload/v1678972859/xfixocw7hghdbcszcwkz.jpg",
+      "nombre": "Bleach",
+      "url": "/assets/img/Dibujos/Bleach.jpg",
       "descripcion": "Bleach"
     },
     {
-      "nombre": "Imagen 3",
-      "url": "https://res.cloudinary.com/dacwrjdao/image/upload/v1678973017/bjugqjczmg2fsmdhlru6.webp",
+      "nombre": "Griffith",
+      "url": "/assets/img/Dibujos/griffith.jpg",
       "descripcion": "Griffith"
     },
     {
-      "nombre": "Imagen 4",
-      "url":"https://res.cloudinary.com/dacwrjdao/image/upload/v1678847990/cwcq2rc9ric6le4scusx.jpg",
+      "nombre": "Batman",
+      "url":"/assets/img/Dibujos/Batman.jpg",
       "descripcion": "Batman"
     },
     {
-      "nombre": "Imagen 5",
-      "url":"https://res.cloudinary.com/dacwrjdao/image/upload/v1679083530/mvfz1q6oyo6dwukog7hx.webp",
+      "nombre": "Jjk",
+      "url":"/assets/img/Dibujos/jjk.jpg",
       "descripcion": "Jjk"
     },
     {
-      "nombre": "Imagen 6",
-      "url":"https://res.cloudinary.com/dacwrjdao/image/upload/v1679083730/ceheqeenkhtrmks3npmx.jpg",
+      "nombre": "Akaza",
+      "url":"/assets/img/Dibujos/akaza.jpg",
       "descripcion": "Akaza"
     }
 
