@@ -305,6 +305,14 @@
 }
 .post-card{
   margin-bottom: 15px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #eed;
+}
+[data-theme="dark"]{
+  .post-card{
+    background-color: #131418;
+  }
 }
 // Author
 .author {
