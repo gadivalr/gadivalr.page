@@ -309,9 +309,32 @@
   padding: 10px;
   background-color: #eed;
 }
+.post-card .post-tags .tag {
+  color: #3c84c0;
+  font-size: 12px;
+  font-weight: 700;
+  &:hover,
+  &:active,
+  &:focus {
+    color:#045191 ;
+  }
+  
+
+}
 [data-theme="dark"]{
   .post-card{
     background-color: #131418;
+  }
+  .post-card .post-tags .tag {
+    color: #f0c87e;
+    font-size: 12px;
+    font-weight: 700;
+    &:hover,
+      &:active,
+      &:focus {
+        color: rgb(250, 193, 88) ;
+      }
+  
   }
 }
 // Author

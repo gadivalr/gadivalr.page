@@ -1,7 +1,7 @@
 ---
 title: "Teoría de Circuitos"
 date: 2023-07-11
-tags: [Apuntes, Electrónica, Teoría de Circuitos]
+tags: [Apuntes]
 image: "/assets/img/Circuitos.jpg"
 usemathjax: true
 ---
