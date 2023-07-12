@@ -1,0 +1,68 @@
+---
+title: About2
+permalink: /About2/
+layout: page
+---
+<p> I'm a student studying electronic engineering, currently living in Concepcion. This blog serves as a documentation of my programming 🎒 journey. It runs on Jekyll, hosted on <a href="http://github.com">github</a>. I have a passion for learning new technology, although I sometimes forget that it is the very reason why I write.</p>
+<p> If you have any questions about me or anything else, feel free to drop me a message.</p>
+<p> Please <a href="http://github.com/gadivalr/gadivalr.github.io/issues/new"> report</a> any broken links or other issues you encounter.</p>
+<strong> Thank you for visiting my blog!  ✨</strong>
+<hr>
+
+<div class="carousel-wrapper">
+  <!-- Slides -->
+  <div class="slide" data-slide>
+    <img src="https://r4.wallpaperflare.com/wallpaper/103/5/162/anime-anime-boys-jujutsu-kaisen-satoru-gojo-hd-wallpaper-98166dd810503c88c0fc91be5882b40a.jpg">
+  </div>
+  <div class="slide" data-slide>
+    <img src="https://r4.wallpaperflare.com/wallpaper/274/315/738/one-piece-roronoa-zoro-hd-wallpaper-a4957384035151dedcc8009e085a4b3d.jpg" alt="Image">
+  </div>
+  <div class="slide" data-slide>
+    <img src="https://wallpaperaccess.com/full/2018447.jpg" alt="Image">
+  </div>
+  <div class="slide" data-slide>
+    <img src="https://wallpaper.dog/large/20563386.png" alt="Image">
+  </div>
+  <div class="slide" data-slide>
+    <img src="http://m.gettywallpapers.com/wp-content/uploads/2020/04/one-piece-wallpaper-laptop.png" alt="Image">
+  </div>
+
+  <!-- Next and Previous Buttons -->
+  <button class="btn previous" data-button="previous">
+    <i class="bi bi-chevron-left"></i>
+  </button>
+  <button class="btn next" data-button="next">
+    <i class="bi bi-chevron-right"></i>
+  </button>
+</div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script >
+const slides = document.querySelectorAll("[data-slide]");
+const buttons = document.querySelectorAll("[data-button]");
+
+let currSlide = 0;
+let maxSlide = slides.length - 1;
+
+const updateCarousel = (number = 0) => {
+  slides.forEach((slide, index) => {
+    slide.style.transform = `translateX(${(index - number) * 100}%)`;
+  });
+};
+
+buttons.forEach((button) => {
+  button.addEventListener("click", () => {
+    button.dataset.button == "next" ? ++currSlide : --currSlide;
+
+    if (currSlide > maxSlide) {
+      currSlide = 0;
+    } else if (currSlide < 0) {
+      currSlide = maxSlide;
+    }
+
+    updateCarousel(currSlide);
+  });
+});
+
+updateCarousel();
+    </script>
