@@ -1,6 +1,6 @@
 ---
 title: About
-permalink: /about/
+permalink: /about2/
 layout: page
 excerpt: Hello peeps, I'm student of electronic from Chile, living in Concpeción. This blog for documentation about my electronic journey, 
 comments: false
