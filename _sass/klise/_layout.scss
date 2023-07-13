@@ -383,13 +383,16 @@
   }
   
   .carousel-wrapper {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 10px;
-    max-width: 900px;
-    aspect-ratio: 16/9;
+    width: 300px;
+    height: 300px;
+    aspect-ratio: 3/3;
     overflow: hidden;
     position: relative;
     border-radius: 12px;
+    
+    margin-inline: auto;
   }
   
   .slide {
@@ -432,6 +435,7 @@
     right: 0;
   }
   
+
 // Author
 .author {
   margin-top: 8.3rem;
