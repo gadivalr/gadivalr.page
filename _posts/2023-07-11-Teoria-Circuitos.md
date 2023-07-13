@@ -5,19 +5,20 @@ tags: [Apuntes]
 image: "/assets/img/Circuitos.jpg"
 usemathjax: true
 ---
-## Teoría de Circuitos
 Hola, en este apartado documentare todo lo que voy aprendiendo acerca de Teoría de Circuitos Eléctricos,
 espero que les sea de utilidad. <br>
+
+### Introducción
+La teoría de circuitos eléctricos es una rama de la ingeniería eléctrica que se encarga del estudio de las cargas en reposo y en movimiento, de las corrientes eléctricas y de los campos magnéticos en el interior de los materiales y en su superficie. Su base es la teoría electromagnética, cuyos principios básicos son la ley de Coulomb, la ley de Gauss, la ley de Ohm y  entre otras. <br>
+La teoría de circuitos eléctricos se aplica a la resolución de problemas prácticos de ingeniería eléctrica, electrónica, telecomunicaciones y de control. <br>
 La bibliografía que estaré utilizando es la siguiente:
 - [Dorf, R.C. y Svoboda, J.A. Circuitos eléctricos](/assets/pdf/Dorf,%20R.C.%20y%20Svoboda,%20J.A.%20Circuitos%20eléctricos.pdf)
 - [Hayt, W.H., Kemmerly, J.E. y Durbin, S.M. Análisis de circuitos en ingeniería.](/assets/pdf/Hayt,%20W.H.,%20Kemmerly,%20J.E.%20y%20Durbin,%20S.M.%20Análisis%20de%20circuitos%20en%20ingeniería.pdf.pdf) 
 
 
-## Introducción
-La teoría de circuitos eléctricos es una rama de la ingeniería eléctrica que se encarga del estudio de las cargas en reposo y en movimiento, de las corrientes eléctricas y de los campos magnéticos en el interior de los materiales y en su superficie. Su base es la teoría electromagnética, cuyos principios básicos son la ley de Coulomb, la ley de Gauss, la ley de Ohm y  entre otras. <br>
-La teoría de circuitos eléctricos se aplica a la resolución de problemas prácticos de ingeniería eléctrica, electrónica, telecomunicaciones y de control. <br>
 
-## Los contenidos que se abordarán son los siguientes:
+
+### Los contenidos que se abordarán son los siguientes:
 - [Elementos de circuitos (Resistencias, Capacitores, Inductores, etc.)](#elementos-de-circuitos)
 - Leyes fundamentales (Ley de Ohm, Ley de Kirchhoff, etc.)
 - Teoremas de circuitos (Teorema de Thevenin, Teorema de Norton, etc.)
@@ -39,7 +40,7 @@ mientras que los elementos pasivos son sumideros o
 absorvedores de energía. <br>
 Ejemplos de elementos activos son: baterías y generadores. 
 Alternativamente, son pasivos: estufas, ampolletas y motores.
-## Modelos
+### Modelos
 En ingeniería se usan modelos para representar los 
 elementos de un circuito eléctrico.<br>
 Un modelo es una descripción de esas propiedades de un 
@@ -68,7 +69,7 @@ contienen algunos elementos no lineales. <br>
 Un elemento es lineal si, y solo si, se satisfacen las 
 propiedades de superposición y homogeneidad para 
 todas las excitaciones y respuestas.
-## Modelos de elementos Pasivos y Activos
+### Modelos de elementos Pasivos y Activos
 Los modelos a definir están basados en aspectos físicos que están 
 presentes en ingeniería eléctrica que toman en consideración los 
 efectos que se presentan debido a la circulación de electrones. <br>
@@ -83,7 +84,7 @@ consideran pasivos y se usan para representar los
 fenómenos físicos anteriores.
 
 
-## Resistencia
+### Resistencia
 La resistencia o resistividad ( **ρ** ) es la capacidad de un 
 material para resistir el flujo de cargas (**electrones**). <br>
 Los materiales que son buenos aislantes eléctricos 
@@ -103,7 +104,7 @@ el siguiente comportamiento:
 ![Resistencia](/assets/img/ohm.jpg)
 <figcaption> <b>Figura 1.</b> <i>Relación entre la corriente y el voltaje en un circuito eléctrico.</i> </figcaption>
 
-## Capacitancia
+### Capacitancia
 La capacitancia es una medida de la habilidad de un 
 dispositivo para almacenar energía en forma de una carga 
 separada o un campo eléctrico.
@@ -131,7 +132,7 @@ $$
 
 {% endraw %}
 
-## Inductancia
+### Inductancia
 La inductancia es una medida de la habilidad de un 
 dispositivo para almacenar energía en forma de un campo 
 magnético.
