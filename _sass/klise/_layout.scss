@@ -394,7 +394,9 @@
     
     margin-inline: auto;
   }
-  
+  .carousel-wrapper p {
+    color: #eaeaea;
+  }
   .slide {
     width: 100%;
     height: 100%;
@@ -434,7 +436,18 @@
     top: 50%;
     right: 0;
   }
-  
+  .description {
+    position: absolute;
+    bottom: 0; /* Cambia "top: 50%" a "bottom: 0" */
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 300ms ease-out;
+  }
 
 // Author
 .author {

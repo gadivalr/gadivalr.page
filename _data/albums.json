@@ -1,0 +1,28 @@
+[
+    {
+      "image": "/assets/img/rainbows.jpg",
+      "description": "In rainbows - Radiohead"
+    },
+    {
+      "image": "/assets/img/moon_shaped.jpg",
+      "description": "A moon shaped pool - Radiohead"
+    },
+    {
+      "image": "/assets/img/abnormal.jpg",
+      "description": "New abnormal - The Strokes"
+    },
+    {
+        "image": "/assets/img/R.jpg",
+        "description": "Absolution - Muse"
+    },
+    {
+        "image": "/assets/img/showbiz.jpg",
+        "description": "Showbiz - Muse"
+
+    },
+    {
+        "image": "/assets/img/grace.jpg",
+        "description": "Grace - Jeff Buckley"
+    }
+    
+  ]

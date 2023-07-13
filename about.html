@@ -11,25 +11,13 @@ layout: page
 <p> <strong> My favorite albums: </strong></p>
 <div class="carousel-wrapper">
   <!-- Slides -->
-  <div class="slide" data-slide>
-    <img src="/assets/img/rainbows.jpg">
-  </div>
-  <div class="slide" data-slide>
-    <img src="/assets/img/moon_shaped.jpg" alt="Image">
-  </div>
-  <div class="slide" data-slide>
-    <img src="/assets/img/abnormal.jpg" alt="Image">
-  </div>
-  <div class="slide" data-slide>
-    <img src="/assets/img/grace.jpg" alt="Image">
-  </div>
-  <div class="slide" data-slide>
-    <img src="/assets/img/R.jpg" alt="Image">
-  </div>
-  <div class="slide" data-slide>
-    <img src="/assets/img/showbiz.jpg" alt="Image">
-  </div>
-  
+  {% for imagen in site.data.albums %}
+    <div class="slide" data-slide>
+      <img src="{{ imagen.image }}" alt="Image">
+      <div class="description">
+        <p> {{ imagen.description }}</p></div>
+    </div>
+  {% endfor %}
 
   <!-- Next and Previous Buttons -->
   <button class="btn previous" data-button="previous">
@@ -39,34 +27,46 @@ layout: page
     <i class="bi bi-chevron-right"></i>
   </button>
 </div>
-  
-  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script >
-const slides = document.querySelectorAll("[data-slide]");
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script>
+  const slides = document.querySelectorAll("[data-slide]");
 const buttons = document.querySelectorAll("[data-button]");
+const descriptionElements = document.querySelectorAll(".description");
 
 let currSlide = 0;
 let maxSlide = slides.length - 1;
 
 const updateCarousel = (number = 0) => {
-  slides.forEach((slide, index) => {
-    slide.style.transform = `translateX(${(index - number) * 100}%)`;
-  });
+slides.forEach((slide, index) => {
+  slide.style.transform = `translateX(${(index - number) * 100}%)`;
+});
+
+descriptionElements.forEach((description, index) => {
+  if (index === number) {
+    description.style.opacity = 1;
+  } else {
+    description.style.opacity = 0;
+  }
+});
 };
 
 buttons.forEach((button) => {
-  button.addEventListener("click", () => {
-    button.dataset.button == "next" ? ++currSlide : --currSlide;
+button.addEventListener("click", () => {
+  button.dataset.button == "next" ? ++currSlide : --currSlide;
 
-    if (currSlide > maxSlide) {
-      currSlide = 0;
-    } else if (currSlide < 0) {
-      currSlide = maxSlide;
-    }
+  if (currSlide > maxSlide) {
+    currSlide = 0;
+  } else if (currSlide < 0) {
+    currSlide = maxSlide;
+  }
 
-    updateCarousel(currSlide);
-  });
+  updateCarousel(currSlide);
+});
 });
 
 updateCarousel();
-    </script>
+
+</script>
+
