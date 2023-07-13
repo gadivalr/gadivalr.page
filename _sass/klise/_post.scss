@@ -91,6 +91,16 @@
 
 // Post content
 .page-content {
+  .custom-post-cards {
+    a {
+      color: #0d122b;
+    }
+    h4 {
+      font-size: 16px;
+      margin-top: 5px;
+    }
+  }
+
   padding-top: 1px;
 
   iframe {
@@ -119,6 +129,10 @@
       font-size: $small-font-size;
     }
   }
+  .post-card a {
+    text-decoration: none;
+
+  }
 
   a {
     color: $text-link-blue; //link color
@@ -137,7 +151,7 @@
     }
 
     &:focus {
-      color: wheat;
+      color: #045191;
     }
   }
 

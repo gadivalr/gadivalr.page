@@ -1,7 +1,7 @@
 ---
 title: Salvando el semestre en una semana (4 días)
 date: 2023-06-12 10:00:00 +07:00
-tags: [Blog]
+tags: [BLOG]
 description: intentaré documentar todo el proceso 
 modified: 2023-06-16
 image: /assets/img/img-salvando-el semestre.jpg

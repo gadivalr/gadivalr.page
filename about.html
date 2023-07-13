@@ -29,7 +29,8 @@ layout: page
 </div>
 
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script>
   const slides = document.querySelectorAll("[data-slide]");
 const buttons = document.querySelectorAll("[data-button]");
@@ -67,6 +68,18 @@ button.addEventListener("click", () => {
 });
 
 updateCarousel();
+const carouselContainer = document.querySelector('.carousel-wrapper');
+
+// Inicializa Swiper.js en el contenedor del carrusel
+const swiper = new Swiper(carouselContainer, {
+  // Configuración de Swiper.js
+  slidesPerView: 'auto',
+  spaceBetween: 10,
+  navigation: {
+    nextEl: '.btn.next',
+    prevEl: '.btn.previous',
+  },
+});
 
 </script>
 

@@ -33,6 +33,11 @@ body[data-theme="dark"] {
 
   // Post
   .page-content {
+    .custom-post-cards {
+      a{
+        color: #eaeaea;
+      }
+    }
       a {
       color: rgb(240, 200, 126);
 
@@ -42,7 +47,7 @@ body[data-theme="dark"] {
         color: rgb(250, 193, 88) ;
       }
     }
-
+   
     h3 {
       border-color: $dark-light;
     }

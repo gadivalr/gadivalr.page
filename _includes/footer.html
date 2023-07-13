@@ -44,7 +44,48 @@
     });
   </script>
 {%- endif -%}
-{%- if page.url == '/about2/' -%}
-<script src="/assets/js/swiper.js"></script>
+{%- if page.url == '/about/' -%}
 
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+{%- endif -%}
+
+<script>
+  const windowHeight = window.innerHeight;
+
+// Obtén la notificación
+const notification = document.querySelector('.notification');
+
+// Calcula la posición vertical de la notificación
+const notificationPosition = (windowHeight - notification.offsetHeight) / 2;
+
+// Establece la posición vertical de la notificación
+notification.style.top = `${notificationPosition}px`;
+</script>
+{%- if page.url == '/Post/' -%}
+<script>
+  const tagsFilter = document.querySelector('.tags-filter');
+const tags = document.querySelectorAll('.tag');
+const postCards = document.querySelectorAll('.post-card');
+
+tagsFilter.addEventListener('click', (event) => {
+  event.preventDefault();
+  const selectedTag = event.target.dataset.tag;
+
+  tags.forEach((tag) => {
+    tag.classList.remove('active');
+  });
+
+  event.target.classList.add('active');
+
+  postCards.forEach((postCard) => {
+    postCard.style.display = 'block';
+    if (selectedTag !== 'all') {
+      if (!postCard.dataset.tags.includes(selectedTag)) {
+        postCard.style.display = 'none';
+      }
+    }
+  });
+});
+
+</script>
 {%- endif -%}
