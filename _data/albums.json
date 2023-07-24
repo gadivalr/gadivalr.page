@@ -1,28 +1,36 @@
 [
     {
-      "image": "/assets/img/rainbows.jpg",
+      "image": "/assets/img/Albumes/rainbows.jpg",
       "description": "In rainbows - Radiohead"
     },
     {
-      "image": "/assets/img/moon_shaped.jpg",
+      "image": "/assets/img/Albumes/moon_shaped.jpg",
       "description": "A moon shaped pool - Radiohead"
     },
     {
-      "image": "/assets/img/abnormal.jpg",
+      "image": "/assets/img/Albumes/abnormal.jpg",
       "description": "New abnormal - The Strokes"
     },
     {
-        "image": "/assets/img/R.jpg",
+        "image": "/assets/img/Albumes/R.jpg",
         "description": "Absolution - Muse"
     },
     {
-        "image": "/assets/img/showbiz.jpg",
+        "image": "/assets/img/Albumes/showbiz.jpg",
         "description": "Showbiz - Muse"
 
     },
     {
-        "image": "/assets/img/grace.jpg",
+        "image": "/assets/img/Albumes/grace.jpg",
         "description": "Grace - Jeff Buckley"
+    },
+    {
+      "image": "/assets/img/Albumes/the_queen_is_dead.jpg",
+      "description": "The queen is dead - The Smiths"
+    },
+    {
+      "image": "/assets/img/Albumes/wish.jpg",
+      "description": "Wish - The Cure"
     }
     
   ]
