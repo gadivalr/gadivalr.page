@@ -3,83 +3,51 @@ title: About
 permalink: /about/
 layout: page
 ---
+<link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+
 <p> I'm a student studying electronic engineering, currently living in Concepcion. This blog serves as a documentation of my programming 🎒 journey. It runs on Jekyll, hosted on <a href="http://github.com">github</a>. I have a passion for learning new technology, although I sometimes forget that it is the very reason why I write.</p>
 <p> If you have any questions about me or anything else, feel free to drop me a message.</p>
 <p> Please <a href="http://github.com/gadivalr/gadivalr.github.io/issues/new"> report</a> any broken links or other issues you encounter.</p>
 <strong> Thank you for visiting my blog!  ✨</strong>
 <hr>
 <p> <strong> My favorite albums: </strong></p>
-<div class="carousel-wrapper">
-  <!-- Slides -->
-  {% for imagen in site.data.albums %}
-    <div class="slide" data-slide>
-      <img src="{{ imagen.image }}" alt="Image">
-      <div class="description">
-        <p> {{ imagen.description }}</p></div>
+<div class="swiper carousel">
+  <div class="swiper-wrapper">
+    {% for imagen in site.data.albums %}
+    <div class="swiper-slide">
+      <img src="{{ imagen.image }}" alt="{{ imagen.description }}" />
     </div>
-  {% endfor %}
-
-  <!-- Next and Previous Buttons -->
-  <button class="btn previous" data-button="previous">
-    <i class="bi bi-chevron-left"></i>
-  </button>
-  <button class="btn next" data-button="next">
-    <i class="bi bi-chevron-right"></i>
-  </button>
+    {% endfor %}
+  </div>
+  <button type="button" class="swiper-button-next"></button>
+  <button type="button" class="swiper-button-prev"></button>
+  <div class="swiper-pagination"></div>
+</div>
+<div class="description-container">
+  <p>{{ site.data.albums[0].description }}</p>
 </div>
 
-
-
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<!-- Swiper.js -->
 <script>
-  const slides = document.querySelectorAll("[data-slide]");
-const buttons = document.querySelectorAll("[data-button]");
-const descriptionElements = document.querySelectorAll(".description");
-
-let currSlide = 0;
-let maxSlide = slides.length - 1;
-
-const updateCarousel = (number = 0) => {
-slides.forEach((slide, index) => {
-  slide.style.transform = `translateX(${(index - number) * 100}%)`;
-});
-
-descriptionElements.forEach((description, index) => {
-  if (index === number) {
-    description.style.opacity = 1;
-  } else {
-    description.style.opacity = 0;
-  }
-});
-};
-
-buttons.forEach((button) => {
-button.addEventListener("click", () => {
-  button.dataset.button == "next" ? ++currSlide : --currSlide;
-
-  if (currSlide > maxSlide) {
-    currSlide = 0;
-  } else if (currSlide < 0) {
-    currSlide = maxSlide;
-  }
-
-  updateCarousel(currSlide);
-});
-});
-
-updateCarousel();
-const carouselContainer = document.querySelector('.carousel-wrapper');
-
-// Inicializa Swiper.js en el contenedor del carrusel
-const swiper = new Swiper(carouselContainer, {
-  // Configuración de Swiper.js
-  slidesPerView: 'auto',
-  spaceBetween: 10,
-  navigation: {
-    nextEl: '.btn.next',
-    prevEl: '.btn.previous',
-  },
-});
-
+  var swiper = new Swiper(".carousel", {
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    on: {
+      slideChange: function () {
+        var currentSlide = swiper.slides[swiper.activeIndex];
+        var description = currentSlide.querySelector("img").alt;
+        document.querySelector(".description-container p").textContent = description;
+      },
+    },
+    loop: true,
+  });
 </script>
-
