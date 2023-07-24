@@ -49,18 +49,52 @@
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 {%- endif -%}
 
-<script>
-  const windowHeight = window.innerHeight;
+<!-- <script>
+// function setCookie(name, value, days) {
+//     var expires = '';
+//     if (days) {
+//       var date = new Date();
+//       date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+//       expires = '; expires=' + date.toUTCString();
+//     }
+//     document.cookie = name + '=' + (value || '') + expires + '; path=/';
+//   }
 
-// Obtén la notificación
-const notification = document.querySelector('.notification');
+//   // Función para obtener el valor de una cookie
+//   function getCookie(name) {
+//     var nameEQ = name + '=';
+//     var ca = document.cookie.split(';');
+//     for (var i = 0; i < ca.length; i++) {
+//       var c = ca[i];
+//       while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+//       if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+//     }
+//     return null;
+//   }
 
-// Calcula la posición vertical de la notificación
-const notificationPosition = (windowHeight - notification.offsetHeight) / 2;
+//   // Obtén la notificación
+//   const notification = document.querySelector('.notification');
+//   const closeButton = document.querySelector('.close-button');
 
-// Establece la posición vertical de la notificación
-notification.style.top = `${notificationPosition}px`;
-</script>
+//   // Verifica si la cookie 'notificationShown' está presente
+//   const notificationShown = getCookie('notificationShown');
+
+//   // Si no se ha mostrado la notificación anteriormente, muéstrala
+//   if (!notificationShown) {
+//     const windowHeight = window.innerHeight;
+//     const notificationPosition = (windowHeight - notification.offsetHeight) / 2;
+//     notification.style.top = `${notificationPosition}px`;
+//     notification.style.display = 'block';
+
+//     // Establece la cookie para que no vuelva a aparecer la notificación
+//     setCookie('notificationShown', 'true', 30);
+//   }
+
+//   // Agrega un evento al botón de cerrar para ocultar la notificación
+//   closeButton.addEventListener('click', () => {
+//     notification.style.display = 'none';
+//   });
+</script> -->
 {%- if page.url == '/Post/' -%}
 <script>
   const tagsFilter = document.querySelector('.tags-filter');
