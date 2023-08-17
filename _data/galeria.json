@@ -40,11 +40,6 @@
       "descripcion": "Yu"
     },
     {
-      "nombre": "Annatar",
-      "url":"/assets/img/Dibujos/Annatar.jpg",
-      "descripcion": "Annatar"
-    },
-    {
       "nombre": "O",
       "url":"/assets/img/Dibujos/feli.jpg",
       "descripcion": "O"
@@ -61,7 +56,7 @@
     },
     {
       "nombre": "Musashi",
-      "url":"/assets/img/Dibujos/Musashi1.jpg",
+      "url":"/assets/img/Dibujos/Musashi.jpg",
       "descripcion": "Musashi"
     },
     {
