@@ -1,2 +1,0 @@
-aas
-c"mo sa
