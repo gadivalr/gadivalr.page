@@ -17,12 +17,12 @@ La bibliografía que estaré utilizando es la siguiente:
 
 ### Los contenidos que se abordarán son los siguientes:
 - [Elementos de circuitos (Resistencias, Capacitores, Inductores, etc.)](#elementos-de-circuitos)
-- Leyes fundamentales (Ley de Ohm, Ley de Kirchhoff, etc.)
-- Teoremas de circuitos (Teorema de Thevenin, Teorema de Norton, etc.)
-- Análisis de circuitos (Mallas, Nodos, etc.)
-- Redes de dos puertas (Redes de dos puertas, Redes de dos puertas en serie, etc.)
-- Formulación para solución de circuitos (Método de mallas, Método de nodos, etc.)
-- Planteamiento de las soluciones fundamentales (Solución de circuitos de primer orden, Solución de circuitos de segundo orden, etc.)
+- Leyes fundamentales (Ley de Ohm, Ley de Kirchhoff)
+- Teoremas de circuitos (Teorema de Thevenin, Teorema de Norton, Superposición)
+- Análisis de circuitos (Mallas, Nodos)
+- Redes de dos puertas (Redes de dos puertas, Redes de dos puertas en serie)
+- Formulación para solución de circuitos (Método de mallas, Método de nodos)
+- Planteamiento de las soluciones fundamentales (Solución de circuitos de primer orden, Solución de circuitos de segundo orden)
 - Métodos de solución (EDOs, Transformada de Laplace, Transformada de Fourier, etc.)
 
 ### Elementos de circuitos
