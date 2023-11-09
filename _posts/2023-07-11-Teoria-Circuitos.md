@@ -6,7 +6,7 @@ image: "/assets/img/Circuitos.jpg"
 usemathjax: true
 ---
 ### Introducción
-En este post, documentaré todo lo que voy aprendiendo acerca de teoría de circuitos, espero que sea de utilidad. Comencemos con la definición o a que nos referimos con teoria de circuitos. La teoría de circuitos eléctricos es una rama de la ingeniería eléctrica que se encarga del estudio de las cargas en reposo y en movimiento, de las corrientes eléctricas y de los campos magnéticos en el interior de los materiales y en su superficie. Su base es la teoría electromagnética, cuyos principios básicos son la ley de Coulomb, la ley de Gauss, la ley de Ohm y  entre otras. <br>
+En este post, documentaré todo lo que voy aprendiendo acerca de teoría de circuitos, espero que sea de utilidad. La teoría de circuitos eléctricos es una rama de la ingeniería eléctrica que se encarga del estudio de las cargas en reposo y en movimiento, de las corrientes eléctricas y de los campos magnéticos en el interior de los materiales y en su superficie. Su base es la teoría electromagnética, cuyos principios básicos son la ley de Coulomb, la ley de Gauss, la ley de Ohm y  entre otras. <br>
 La teoría de circuitos eléctricos se aplica a la resolución de problemas prácticos de ingeniería eléctrica, electrónica, telecomunicaciones y de control. <br>
 La bibliografía que estaré utilizando es la siguiente:
 - [Dorf, R.C. y Svoboda, J.A. Circuitos eléctricos](/assets/pdf/Dorf,%20R.C.%20y%20Svoboda,%20J.A.%20Circuitos%20eléctricos.pdf)
