@@ -30,10 +30,43 @@ layout: compress
   
   <div class="wrapper">
     {% include author.html %}
+
+  </div>
+  <div class="content-new">
+  <section class="primary">
     <main aria-label="Content">
       {{ content }}
     </main>
-    {% include footer.html %}
+  </section>
+  <section class="secondary">
+    <div class="winget-sidebar">
+      <aside>
+        <div class="author-card", style="margin-top: 10px;">
+          <img src="assets/img/ava2.jpeg" alt="Autor" />
+          <center>
+          <h3>Gadi Sojos</h3>
+          </center>
+          
+          <p>I'm a student studying Civil Electronic Engineering, currently living in Concepcion. This blog serves as a documentation of my programming 🎒 journey. It runs on Jekyll, hosted on github. I have a passion for learning new technology, although I sometimes forget that it is the very reason why I write.
+
+          </p>
+          
+        </div>
+        <div class="widget">
+          <h4>Últimas entradas</h4>
+          <ul>
+            {% for post in site.posts limit:5 %}
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+    </div>
+</section>
+
   </div>
+
+    
+ 
 </body>
 </html>
