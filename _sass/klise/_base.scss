@@ -68,6 +68,7 @@ figure {
 body {
   min-height: 100vh;
   overflow-x: hidden;
+  
   // position: relative;
   
   background-color: #fffff0;
@@ -332,10 +333,9 @@ blockquote {
   }
 }
 .content-new {
-  margin: 0 auto;
-  padding: 0 2rem;
-  max-width: 1320px;
-  width: 100%;
+  
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .primary{
   float: left;
@@ -353,7 +353,7 @@ blockquote {
     width: 25%;
     background: #eeeedd url(//4.bp.blogspot.com/-O8yztk6WVcU/T0NkbFabmQI/AAAAAAAAAgY/5b0-oJ207os/s000/pattern.png);
     border-radius: 10px;
-    padding: 10px;
+    
     margin-right: 60px;
     margin-top:54px;
     display: flex;
@@ -407,12 +407,12 @@ blockquote {
 @media (max-width: 768px) { /* Esto se aplicará en pantallas de hasta 768px de ancho */
   .secondary {
     float: none; /* Esto hará que la barra lateral no flote, por lo que se moverá debajo del contenido principal */
-    width: 86%; 
+    width: 100%; 
     margin-left: 0px;/* Esto hará que la barra lateral ocupe todo el ancho disponible */
     flex-direction: column; /* Esto hará que los elementos hijos de .secondary se alineen en una columna */
   }
   .primary{
-    width: 90%;
+    width: 100%;
     margin-left: 0px;
   }
   .author-card {
@@ -461,8 +461,6 @@ button:hover {
     width: 25%;
     background:#eeeedd url(//4.bp.blogspot.com/-O8yztk6WVcU/T0NkbFabmQI/AAAAAAAAAgY/5b0-oJ207os/s000/pattern.png);
     border-radius: 10px;
-    padding: 10px;
-    margin-right: 60px;
     margin-top:172px;
     display: flex;
 //eeeedd
@@ -473,12 +471,12 @@ button:hover {
   }
   .secondary-p {
     float: none; /* Esto hará que la barra lateral no flote, por lo que se moverá debajo del contenido principal */
-    width: 86%; 
+    width: 100%; 
     margin-left: 0px;/* Esto hará que la barra lateral ocupe todo el ancho disponible */
     flex-direction: column; /* Esto hará que los elementos hijos de .secondary se alineen en una columna */
   }
   .primary-p{
-    width: 90%;
+    width: 100%;
     margin-left: 0px;
   }
   .widget{ 
