@@ -46,7 +46,7 @@
     "density": "4.0"
    },
    { 
-            "src": "/assets/favicon/maskable_icon_144.png",
+            "src": "/assets/favicon/maskable_icon.png",
             "sizes": "144x44",
             "type": "image/png",
             "purpose": "any maskable"
