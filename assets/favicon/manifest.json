@@ -1,6 +1,6 @@
 {
     "name": "Blog Personal - Gadi",
-    "short_name": "Gadi blog",
+    "short_name": "Blog",
     "icons": [
         { 
             "src": "/assets/favicon/ms-icon-144x144.png",
@@ -34,7 +34,7 @@
         }
     ],
     "start_url": "/",
-    "theme_color": "#ffffff",
+    "theme_color": "#131418",
     "background_color": "#ffffff",
     "display": "standalone"
 }
