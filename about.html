@@ -1,0 +1,53 @@
+---
+title: About
+permalink: /about/
+layout: page
+---
+<link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+
+<p> I'm a student studying Civil Electronic Engineering, currently living in Concepcion. This blog serves as a documentation of my programming 🎒 journey. It runs on Jekyll, hosted on <a href="http://github.com">github</a>. I have a passion for learning new technology, although I sometimes forget that it is the very reason why I write.</p>
+<p> If you have any questions about me or anything else, feel free to drop me a message.</p>
+<p> Please <a href="http://github.com/gadivalr/gadivalr.github.io/issues/new"> report</a> any broken links or other issues you encounter.</p>
+<strong> Thank you for visiting my blog!  ✨</strong>
+<hr>
+<p> <strong> My favorite albums: </strong></p>
+<div class="swiper carousel">
+  <div class="swiper-wrapper">
+    {% for imagen in site.data.albums %}
+    <div class="swiper-slide">
+      <img src="{{ imagen.image }}" alt="{{ imagen.description }}" />
+    </div>
+    {% endfor %}
+  </div>
+  <button type="button" class="swiper-button-next"></button>
+  <button type="button" class="swiper-button-prev"></button>
+  <div class="swiper-pagination"></div>
+</div>
+<div class="description-container">
+  <p>{{ site.data.albums[0].description }}</p>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<!-- Swiper.js -->
+<script>
+  var swiper = new Swiper(".carousel", {
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    on: {
+      slideChange: function () {
+        var currentSlide = swiper.slides[swiper.activeIndex];
+        var description = currentSlide.querySelector("img").alt;
+        document.querySelector(".description-container p").textContent = description;
+      },
+    },
+    loop: true,
+  });
+</script>

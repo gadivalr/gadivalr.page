@@ -1,7 +1,7 @@
 ---
 title: Salvando el semestre en una semana (4 días)
 date: 2023-06-12 10:00:00 +07:00
-tags: [Blog]
+tags: [BLOG]
 description: intentaré documentar todo el proceso 
 modified: 2023-06-16
 image: /assets/img/img-salvando-el semestre.jpg
@@ -36,7 +36,7 @@ No estudie nada 🙃,  además que no pude ir a la clase de la mañana. La noche
 Los dejo con un hermoso panel de Batman. 
 <br>
 <hr>
-![20230613_012405](https://github.com/gadivalr/gadivalr.github.io/assets/126745302/b4bf211c-8e75-401d-a750-ab812640ccbe)
+![batman1](https://github.com/gadivalr/gadivalr.github.io/assets/126745302/4e9e34fd-e88a-49d9-a1c4-d70c4fc55420)
 <figcaption>Batman</figcaption>
 
 ### Día 3
@@ -58,3 +58,4 @@ Hoy es último día antes del certamen, lo bueno es que logré estudiar lo más 
 Finalmente ha llegado el día 😬, son las 7 am y tengo el certamen a las 13 hrs, asi que tengo tiempo para un repaso final. Iré a la Cfm a estudiar, encuentro que me concentro más ahí que en la casa, lo más importante es que no me deja procrastinar como que entro en el mood de concentración y estudio. Bueno en la tarde les contaré como me fue. 
 ### Post-Certamen
 Creo que me fue bien, el certamen fue muy parecido al certamen con el que estudie (el del 2022), así que no estaba tan complicado pero considero que fue muy poco tiempo para poder desarrollar bien el certamen, eran 3 preguntas, la 1 era de 3pts y las otras de 1.5 pts c/u. El tiempo para resolver el certamen fue de 1 hora y 30 minutos, desde las 13:15 a las 14:45, digo que fue muy poco tiempo porque para resolver la pregunta 1 que tenia un a y b me tomó más de 1 hora en terminarlo, por lo que para las otras preguntas tuve que intentar responder lo más rápido posible y aun asi no me dió el tiempo para terminarlo completo. Pero con lo que respondí creo que esta todo bueno y me es suficiente para aprobar el ramo, así que ahora solo queda esperar los resultados para poder confirmarlo.
+## GaD se aprobo todo  

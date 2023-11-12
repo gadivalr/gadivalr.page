@@ -1,18 +1,78 @@
 [
     {
-      "nombre": "Imagen 1",
-      "url": "https://th.bing.com/th/id/OIP.EDifmS1lIZw0MI2p9IBbuAHaI4?pid=ImgDet&rs=1",
-      "descripcion": "Vagabond"
+      "nombre": "Saitama",
+      "url": "/assets/img/Dibujos/Saitama.jpg",
+      "descripcion": "Saitama"
     },
     {
-      "nombre": "Imagen 2",
-      "url": "https://th.bing.com/th/id/OIP.Pt7O6OagYCaoqRktr5I-aQHaKb?pid=ImgDet&rs=1",
-      "descripcion": "Guts"
+      "nombre": "Bleach",
+      "url": "/assets/img/Dibujos/Bleach.jpg",
+      "descripcion": "Bleach"
     },
     {
-      "nombre": "Imagen 3",
-      "url": "https://th.bing.com/th/id/R.311a14540080bae596428f7927fa5ceb?rik=fxZTOahn3Sqvjw&pid=ImgRaw&r=0",
-      "descripcion": "Gust2"
+      "nombre": "Griffith",
+      "url": "/assets/img/Dibujos/griffith.jpg",
+      "descripcion": "Griffith"
+    },
+    {
+      "nombre": "Batman",
+      "url":"/assets/img/Dibujos/Batman.jpg",
+      "descripcion": "Batman"
+    },
+    {
+      "nombre": "Jjk",
+      "url":"/assets/img/Dibujos/jjk.jpg",
+      "descripcion": "Jjk"
+    },
+    {
+      "nombre": "Akaza",
+      "url":"/assets/img/Dibujos/akaza.jpg",
+      "descripcion": "Akaza"
+    },
+    {
+      "nombre": "Face",
+      "url":"/assets/img/Dibujos/face1.jpg",
+      "descripcion": "Face"
+    },
+    {
+      "nombre": "Yu",
+      "url":"/assets/img/Dibujos/face2.jpg",
+      "descripcion": "Yu"
+    },
+    {
+      "nombre": "O",
+      "url":"/assets/img/Dibujos/feli.jpg",
+      "descripcion": "O"
+    },
+    {
+      "nombre": "Grimmer",
+      "url":"/assets/img/Dibujos/Grimmer.jpg",
+      "descripcion": "Grimmer"
+    },
+    {
+      "nombre": "Ippo",
+      "url":"/assets/img/Dibujos/Ippo.jpg",
+      "descripcion": "Ippo"
+    },
+    {
+      "nombre": "Musashi",
+      "url":"/assets/img/Dibujos/Musashi.jpg",
+      "descripcion": "Musashi"
+    },
+    {
+      "nombre": "Miyamoto",
+      "url":"/assets/img/Dibujos/Musashi2.jpg",
+      "descripcion": "Miyamoto"
+    },
+    {
+      "nombre": "SdD",
+      "url":"/assets/img/Dibujos/sdd.jpg",
+      "descripcion": "SdD"
+    },
+    {
+      "nombre": "Thorfinn",
+      "url":"/assets/img/Dibujos/thorfin.jpg",
+      "descripcion": "Thorfinn"
     }
   ]
   

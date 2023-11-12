@@ -8,8 +8,10 @@
   .contenedor {
     width: 100%;
     height: 400px; 
+    border-radius: 5px;
     @include media-query($on-desktop) {
       height: 300px; 
+
     } 
     overflow: hidden; 
   }
@@ -89,6 +91,16 @@
 
 // Post content
 .page-content {
+  .custom-post-cards {
+    a {
+      color: #0d122b;
+    }
+    h4 {
+      font-size: 16px;
+      margin-top: 5px;
+    }
+  }
+
   padding-top: 1px;
 
   iframe {
@@ -117,6 +129,10 @@
       font-size: $small-font-size;
     }
   }
+  .post-card a {
+    text-decoration: none;
+
+  }
 
   a {
     color: $text-link-blue; //link color
@@ -135,7 +151,7 @@
     }
 
     &:focus {
-      color: wheat;
+      color: #045191;
     }
   }
 
