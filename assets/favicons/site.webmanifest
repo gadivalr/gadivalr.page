@@ -3,19 +3,19 @@
     "short_name": "gadi",
     "icons": [
         { 
-            "src": "/ico_144x144.png",
+            "src": "/assets/favicons/ico_144x144.png",
             "sizes": "144x44",
             "type": "image/png",
             "purpose": "any"
         },
         {
-            "src": "/ico_384x384.png",
+            "src": "/assets/favicons/ico_384x384.png",
             "sizes": "384x384",
             "type": "image/png",
             "purpose": "any"
         },
         {
-            "src": "/ico.png",
+            "src": "/assets/favicons/ico.png",
             "sizes": "512x512",
             "type": "image/png",
             "purpose": "any"
