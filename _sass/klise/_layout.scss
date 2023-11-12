@@ -750,9 +750,11 @@ svg:not(:root) {
   margin-top: 8em;
   margin-bottom: 2em;
   text-align: center;
+  display: none;
 
   @include media-query($on-mobile) {
     margin-top: 3em;
+    display: block;
   }
   span.footer_item {
     color: $black;

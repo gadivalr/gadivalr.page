@@ -9,7 +9,7 @@
 
 .notransition {
   -webkit-transition: none;
-  -moz-transition: none; 
+  -moz-transition: none;
   -ms-transition: none;
   -o-transition: none;
   transition: none;
@@ -61,16 +61,16 @@ figure {
   font-family: 'Roboto';
   src: url('/assets/fonts/KFOmCnqEu92Fr1Mu4mxK.woff2') format('woff2'),
   url('/assets/fonts/KFOlCnqEu92Fr1MmWUlfBBc4.woff2') format('woff2');
-        
+
   font-display: swap;
 }
 
 body {
   min-height: 100vh;
   overflow-x: hidden;
-  
+
   // position: relative;
-  
+
   background-color: #fffff0;
   font: $normal-weight #{$base-font-size}/#{$base-line-height} $sans-family;
   -webkit-text-size-adjust: 100%;
@@ -86,7 +86,7 @@ body {
 code {
   &.highlighter-rouge {
     background-color: #eed;
-    
+
   }
 }
 // Set `margin-bottom` to maintain vertical rhythm
@@ -333,7 +333,7 @@ blockquote {
   }
 }
 .content-new {
-  
+
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -353,7 +353,7 @@ blockquote {
     width: 25%;
     background: #eeeedd url(//4.bp.blogspot.com/-O8yztk6WVcU/T0NkbFabmQI/AAAAAAAAAgY/5b0-oJ207os/s000/pattern.png);
     border-radius: 10px;
-    
+
     margin-right: 60px;
     margin-top:54px;
     display: flex;
@@ -407,7 +407,7 @@ blockquote {
 @media (max-width: 768px) { /* Esto se aplicará en pantallas de hasta 768px de ancho */
   .secondary {
     float: none; /* Esto hará que la barra lateral no flote, por lo que se moverá debajo del contenido principal */
-    width: 100%; 
+    width: 100%;
     margin-left: 0px;/* Esto hará que la barra lateral ocupe todo el ancho disponible */
     flex-direction: column; /* Esto hará que los elementos hijos de .secondary se alineen en una columna */
   }
@@ -422,28 +422,27 @@ blockquote {
   .winget-sidebar {
     padding: 0px;
   }
-  .widget{ 
+  .widget{
     padding: 20px;
   }
 
 }
 
-button  {
+ button  {
   display: block;
-  width: 200px;
-  height: 50px;
-  margin: 20px auto;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
+width: 200px;
+height: 50px;
+margin: 20px auto;
+background-color: #4CAF50;
+color: white;
+ border: none;
   border-radius: 5px;
-  cursor: pointer;
-  font-size: 18px;
-}
-
+ cursor: pointer;
+ font-size: 18px;
+ }
 button:hover {
-  background-color: #45a049;
-}
+background-color: #45a049;
+ }
 //post
 .primary-p{
   float: left;
@@ -471,7 +470,7 @@ button:hover {
   }
   .secondary-p {
     float: none; /* Esto hará que la barra lateral no flote, por lo que se moverá debajo del contenido principal */
-    width: 100%; 
+    width: 100%;
     margin-left: 0px;/* Esto hará que la barra lateral ocupe todo el ancho disponible */
     flex-direction: column; /* Esto hará que los elementos hijos de .secondary se alineen en una columna */
   }
@@ -479,7 +478,7 @@ button:hover {
     width: 100%;
     margin-left: 0px;
   }
-  .widget{ 
+  .widget{
     padding: 20px;
   }
 }
