@@ -369,11 +369,7 @@ blockquote {
   height: auto; /* Esto mantendrá la proporción de la imagen */
   border-radius: 50%; /* Esto hará que la imagen sea redonda */
 }
-.footer-container {
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-}
++
 .author-card h3 {
   font-size: 20px; /* Cambia esto al tamaño de fuente que desees */
   color: #333; /* Cambia esto al color que desees */
@@ -461,6 +457,7 @@ background-color: #45a049;
     background:#eeeedd url(//4.bp.blogspot.com/-O8yztk6WVcU/T0NkbFabmQI/AAAAAAAAAgY/5b0-oJ207os/s000/pattern.png);
     border-radius: 10px;
     margin-top:172px;
+    margin-right: 60px;
     display: flex;
 //eeeedd
 }
