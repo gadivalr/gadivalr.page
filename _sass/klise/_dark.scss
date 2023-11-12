@@ -30,7 +30,10 @@ body[data-theme="dark"] {
       border-color: $dark-text-base-color;
     }
   }
+.secondary{
+  background: #13131a url(//4.bp.blogspot.com/-O8yztk6WVcU/T0NkbFabmQI/AAAAAAAAAgY/5b0-oJ207os/s000/pattern.png);
 
+}
   // Post
   .page-content {
     .custom-post-cards {
@@ -148,7 +151,7 @@ body[data-theme="dark"] {
         color: $dark-white;
       }
       @include media-query($on-mobile) {
-        background-color: #131418;
+        background: #131418 url(//4.bp.blogspot.com/-O8yztk6WVcU/T0NkbFabmQI/AAAAAAAAAgY/5b0-oJ207os/s000/pattern.png);
         border-color: $dark-light;
 
         .menu-icon {
