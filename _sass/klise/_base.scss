@@ -23,15 +23,20 @@ html {
 .mathjax-container,
 mjx-container[jax="SVG"][display="true"] {
   display: flex !important;
-  text-align: left !important;
+  text-align: center !important;
+  justify-content: center !important;
 }
-.mathjax-container,
-mjx-container[jax="CHTML"][display="true"] {
-  display: flex !important;
-  text-align: left !important;
-}
+
 mjx-container[jax="SVG"] > svg {
-  width: 100%;
+  display: flex !important;
+  
+
+}
+.inline-math,
+inline-math  {
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 1px;
 }
 
 body,
