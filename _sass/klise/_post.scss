@@ -242,7 +242,7 @@
   display: flex;
   position: relative;
   margin-top: 5em;
-  border-top: 1px solid $light;
+  border-top: 1px ;
   line-height: 1.4;
 
   .post-nav-item {
@@ -298,7 +298,7 @@
     .post-nav-item:nth-child(even) {
       border-left: 0;
       padding-left: 0;
-      border-top: 1px solid $light;
+      border-top: 1px ;
     }
   }
 }
