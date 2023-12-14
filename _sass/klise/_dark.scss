@@ -66,7 +66,7 @@ body[data-theme="dark"] {
     }
   }
   .disqus-section{
-    background: #fffff0 url(//4.bp.blogspot.com/-O8yztk6WVcU/T0NkbFabmQI/AAAAAAAAAgY/5b0-oJ207os/s000/pattern.png);
+    background: #fffff0 ;
     padding: 10px;
   }
   // Syntax
@@ -154,7 +154,7 @@ body[data-theme="dark"] {
         color: $dark-white;
       }
       @include media-query($on-mobile) {
-        background: #131418 url(//4.bp.blogspot.com/-O8yztk6WVcU/T0NkbFabmQI/AAAAAAAAAgY/5b0-oJ207os/s000/pattern.png);
+        background: #131418 ;
         border-color: $dark-light;
 
         .menu-icon {
