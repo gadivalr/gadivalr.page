@@ -25,6 +25,3 @@
 # - title: Proyectos
 #   url: /proyectos/
 #   external: false # set true if you using external link, see below
-- title: HBD 
-  url: /hbd_german/
-  external: false # set true if you using external link, see below
