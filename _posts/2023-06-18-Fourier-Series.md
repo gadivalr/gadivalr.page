@@ -122,14 +122,20 @@ Notamos que con ambos métodos se obtiene el mismo resultado, pero el segundo m�
  Siempre que estemos trabajando con una función impar, podemos usar la propiedad de paridad de la función seno para calcular el coeficiente b_n del mismo modo cuando tengamos una función par podemos usar la propiedad de paridad de la función coseno para calcular el coeficiente a_n.
 
 ### Serie de Fourier compleja
-La serie de Fourier compleja es una forma alternativa de escribir la serie de Fourier de una función f(x) definida en el intervalo [ -L,L ]. La serie de Fourier compleja de una función f(x) definida en el intervalo [ -L,L ] es la serie trigonométrica:
+La serie de Fourier compleja es una forma alternativa de escribir la serie de Fourier de una función f(x) definida en el intervalo [ -L,L ]. La serie de Fourier compleja de una función f(x) definida en el intervalo [ -L,L ] es la serie:
 {% raw %}
 $$
 
 \begin{align*}
 f(x) &=\sum_{n=-\infty}^{+\infty} \quad c_n e^{i\frac{n\pi x}{L}}\\
-&\text{Donde los coeficientes son:}\\
-c_n&=\frac{1}{2L}\int_{-L}^{L} f(x) e^{-i\frac{n\pi x}{L}} \, dx\\
+\end{align*}
+$$
+{% endraw %}
+Donde el coeficiente esta dado por:
+{% raw %}
+$$
+\begin{align*}
+c_n=\frac{1}{2L}\int_{-L}^{L} f(x) e^{-i\frac{n\pi x}{L}} \, dx\\
 \end{align*}
 $$
 {% endraw %}
@@ -174,7 +180,7 @@ c_n&=\frac{1}{2\pi}\int_{-\pi}^{\pi} f(t) e^{-i\frac{n\pi t}{\pi}} \, dt\\
 $$
 {% endraw %}
 
-Por lo tanto, la serie de Fourier compleja de la función es:
+Por lo tanto, la serie de Fourier de la función es:
 
 {% raw %}
 $$
@@ -184,4 +190,32 @@ f(t)&=\frac{2}{\pi} \sum_{n=-\infty}^{+\infty} \quad \frac{(-1)^n}{(1-4n^2)} e^{
 $$
 {% endraw %}
 
+Al usar la serie de Fourier compleja, se obtiene un resultado más corto y fácil de calcular que usando la serie de Fourier real. Además, la serie de Fourier compleja es más fácil de manipular que la serie de Fourier real. Por ejemplo, la serie de Fourier compleja es más fácil de derivar e integrar que la serie de Fourier real.
+
+### Recordar las siguientes propiedades de la exponencial compleja:
+{% raw %}
+$$
+\begin{align*}
+e^{i\theta}&=\cos(\theta)+i\sin(\theta)\\
+e^{-i\theta}&=\cos(\theta)-i\sin(\theta)\\
+\cos(\theta)&=\frac{e^{i\theta}+e^{-i\theta}}{2}\\
+\sin(\theta)&=\frac{e^{i\theta}-e^{-i\theta}}{2i}\\
+\cosh(\theta)&=\frac{e^{\theta}+e^{-\theta}}{2}\\
+\sinh(\theta)&=\frac{e^{\theta}-e^{-\theta}}{2}\\
+\end{align*}
+$$
+{% endraw %}
+### Recordar que:
+{% raw %}
+$$
+\begin{align*}
+\cos(n\pi)&= \cos(-n\pi)={(-1)}^{n}\\
+\sin(n\pi)&=0\\
+\cos(\frac{n\pi}{2})&=0\\
+\sin(\frac{n\pi}{2})&= \sin(-\frac{n\pi}{2})={(-1)}^{n+1}\\
+\end{align*}
+$$
+{% endraw %}
+
+Con estas propiedades podemos calcular la serie de Fourier compleja de una función de forma más fácil y rápida.
 
