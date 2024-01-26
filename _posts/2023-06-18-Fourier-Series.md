@@ -205,7 +205,7 @@ e^{-i\theta}&=\cos(\theta)-i\sin(\theta)\\
 \end{align*}
 $$
 {% endraw %}
-### Recordar que:
+### Recordar también que:
 {% raw %}
 $$
 \begin{align*}
