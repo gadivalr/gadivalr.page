@@ -21,7 +21,7 @@ author:
   avatar: /assets/img/ava2.jpeg # change with your own avatar
 
 # URL settings
-url: "https://gadivalr.ninja/" #
+url: 
 baseurl:
 permalink: /:title/
 google_analytics: # leave it blank if not wish
