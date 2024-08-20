@@ -19,7 +19,6 @@ La bibliografía que estaré utilizando es la siguiente:
 - [Elementos de circuitos (Resistencias, Capacitores, Inductores, etc.)](#elementos-de-circuitos)
 - Leyes fundamentales (Ley de Ohm, Ley de Kirchhoff)
 - Teoremas de circuitos (Teorema de Thevenin, Teorema de Norton, Superposición)
-- Análisis de circuitos (Mallas, Nodos)
 - Redes de dos puertas (Redes de dos puertas, Redes de dos puertas en serie)
 - Formulación para solución de circuitos (Método de mallas, Método de nodos)
 - Planteamiento de las soluciones fundamentales (Solución de circuitos de primer orden, Solución de circuitos de segundo orden)
@@ -153,4 +152,41 @@ i &= \text{Corriente en Amperes (A)}
 $$
 {% endraw %}
 
+#### Leyes fundamentales 
+### Ley de Kirchhoff
+Las leyes de Kirchhoff son dos leyes fundamentales en el análisis de circuitos eléctricos. <br>
+La primera ley de Kirchhoff, también conocida como la ley de corrientes de Kirchhoff, establece que la suma algebraica de las corrientes que entran y salen de un nodo es igual a cero. <br>
+La segunda ley de Kirchhoff, también conocida como la ley de tensiones de Kirchhoff, establece que la suma algebraica de las diferencias de potencial en un lazo cerrado es igual a cero. <br>
+La ley de corrientes de Kirchhoff se puede expresar de la siguiente manera:
+<hr>
+{% raw %}
+$$
+\sum_{k=1}^{n} I_k = 0
+$$
+{% endraw %}
+Donde: <br>
+{% raw %}
+$$
+\begin{align*}
+I_k &= \text{Corriente en el nodo k} \\
+n &= \text{Número de corrientes en el nodo}
+\end{align*}
+$$
+{% endraw %}
 
+La ley de tensiones de Kirchhoff se puede expresar de la siguiente manera:
+<hr>
+{% raw %}
+$$
+\sum_{k=1}^{n} V_k = 0
+$$
+{% endraw %}
+Donde: <br>
+{% raw %}
+$$
+\begin{align*}
+V_k &= \text{Diferencia de potencial en el nodo k} \\
+n &= \text{Número de diferencias de potencial en el nodo}
+\end{align*}
+$$
+{% endraw %}
