@@ -41,21 +41,21 @@ Los dejo con un hermoso panel de Batman.
 
 ### Día 3
 
-Hoy fue un día normal, me quite un peso de encima con el test de numérico aunque llegué un poco agitado porque se me había pasado la hora, tuve que irme corriendo y aun asi llegue atrasado, pero salio todo bien. Ahora tengo que estudiar para otro test pero esta vez de Complemento de Cálculo acerca del Teorema de resiuos para el cálculo de integrales trigonométricas y reales. Para ser sincero me da una pereza pero tengo que estudiar si o si. he aquí mi plan de estudio para hoy: 
+Hoy fue un día normal, me quite un peso de encima con el test de numérico aunque llegué un poco agitado porque se me había pasado la hora, tuve que irme corriendo y aun así llegue atrasado, pero salio todo bien. Ahora tengo que estudiar para otro test pero esta vez de Complemento de Cálculo acerca del Teorema de residuos para el cálculo de integrales trigonométricas y reales. Para ser sincero me da una pereza pero tengo que estudiar si o si. He aquí mi plan de estudio para hoy: 
 <br>
 * Repasar bien el teorema de Residuos.
 * Resolver ejercicios de integrales trigonométricas y reales usando residuos del Zill (libro de variable Compleja).
 * Volver a resolver los ejercicios hechos.
 <br>
-Lo más tedioso de residuos es cuando hay polos de orden mayor que 2, derivar y factorizar es un dolor de cabeza, no es dificil pero si tedioso a comparación del caso de orden 1.
+Lo más tedioso de residuos es cuando hay polos de orden mayor que 2, derivar y factorizar es un dolor de cabeza, no es difícil pero si tedioso a comparación del caso de orden 1.
 
 ### Día final (Día 4)
 
-Hoy es último día antes del certamen, lo bueno es que logré estudiar lo más relevante para la prueba, me siento confiado pero aún creo que me falta repasar algo, asi que mañna intentaré dar el último repaso. A y en el tets de hoy me fue muy bien no se si tendré la nota máxima pero estaré cerca, enviaron la pauta donde hay tres pts y en el paso de mostrar como se llegó a esas singulares y yo por espacio borré esa parte porque no la creí muy relevante 😶, pero bueno.
+Hoy es último día antes del certamen, lo bueno es que logré estudiar lo más relevante para la prueba, me siento confiado pero aún creo que me falta repasar algo, así que mañana intentaré dar el último repaso. A y en el test de hoy me fue muy bien no se si tendré la nota máxima pero estaré cerca, enviaron la pauta donde hay tres pts y en el paso de mostrar como se llegó a esas singulares y yo por espacio borré esa parte porque no la creí muy relevante 😶, pero bueno.
 
 ### La hora de la verdad
 
-Finalmente ha llegado el día 😬, son las 7 am y tengo el certamen a las 13 hrs, asi que tengo tiempo para un repaso final. Iré a la Cfm a estudiar, encuentro que me concentro más ahí que en la casa, lo más importante es que no me deja procrastinar como que entro en el mood de concentración y estudio. Bueno en la tarde les contaré como me fue. 
+Finalmente ha llegado el día 😬, son las 7 am y tengo el certamen a las 13 hrs, así que tengo tiempo para un repaso final. Iré a la Cfm a estudiar, encuentro que me concentro más ahí que en la casa, lo más importante es que no me deja procrastinar como que entro en el mood de concentración y estudio. Bueno en la tarde les contaré como me fue. 
 ### Post-Certamen
-Creo que me fue bien, el certamen fue muy parecido al certamen con el que estudie (el del 2022), así que no estaba tan complicado pero considero que fue muy poco tiempo para poder desarrollar bien el certamen, eran 3 preguntas, la 1 era de 3pts y las otras de 1.5 pts c/u. El tiempo para resolver el certamen fue de 1 hora y 30 minutos, desde las 13:15 a las 14:45, digo que fue muy poco tiempo porque para resolver la pregunta 1 que tenia un a y b me tomó más de 1 hora en terminarlo, por lo que para las otras preguntas tuve que intentar responder lo más rápido posible y aun asi no me dió el tiempo para terminarlo completo. Pero con lo que respondí creo que esta todo bueno y me es suficiente para aprobar el ramo, así que ahora solo queda esperar los resultados para poder confirmarlo.
-## GaD se aprobo todo  
+Creo que me fue bien, el certamen fue muy parecido al certamen con el que estudie (el del 2022), así que no estaba tan complicado pero considero que fue muy poco tiempo para poder desarrollar bien el certamen, eran 3 preguntas, la 1 era de 3pts y las otras de 1.5 pts c/u. El tiempo para resolver el certamen fue de 1 hora y 30 minutos, desde las 13:15 a las 14:45, digo que fue muy poco tiempo porque para resolver la pregunta 1 que tenia un a y b me tomó más de 1 hora en terminarlo, por lo que para las otras preguntas tuve que intentar responder lo más rápido posible y aun así no me dio el tiempo para terminarlo completo. Pero con lo que respondí creo que esta todo bueno y me es suficiente para aprobar el ramo, así que ahora solo queda esperar los resultados para poder confirmarlo.
+## GaD se aprobó todo  
