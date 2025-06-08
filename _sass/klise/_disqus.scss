@@ -1,9 +1,19 @@
 // Estilos para el tema light
-.disqus-section {
-  background-color: #1b1d25;
+.disqus-section[data-theme="dark"] {
+  background: #131418 ;
   padding: 10px;
   
-  margin-top: 50px;
+  
+
+  // Estilos adicionales específicos del tema light
+}
+.disqus-section {
+
+  background: #fffff0 ;
+
+  padding: 10px;
+  border-radius: 10px;
+  
 
   // Estilos adicionales específicos del tema light
 }

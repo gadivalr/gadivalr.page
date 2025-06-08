@@ -1,5 +1,4 @@
 ---
-title: About
 permalink: /about/
 layout: page
 ---
@@ -7,13 +6,28 @@ layout: page
 rel="stylesheet"
 href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
 />
+<section class="secondary">
+  <div class="winget-sidebar">
+    <aside>
+      <div class="author-card", style="margin-top: 10px;">
+        <img src="{{ site.author.avatar }}" alt="Autor" />
+        <center>
+        <h3>Gadi Sojos</h3>
+        </center>
+        
+        <p>I'm a student Civil Electronic Engineering, currently living in Concepcion. This blog serves as a documentation of my programming 🎒 journey. It runs on Jekyll, hosted on github. I have a passion for learning new technology, although I sometimes forget that it is the very reason why I write.
 
-<p> I'm a student studying Civil Electronic Engineering, currently living in Concepcion. This blog serves as a documentation of my programming 🎒 journey. It runs on Jekyll, hosted on <a href="http://github.com">github</a>. I have a passion for learning new technology, although I sometimes forget that it is the very reason why I write.</p>
-<p> If you have any questions about me or anything else, feel free to drop me a message.</p>
-<p> Please <a href="http://github.com/gadivalr/gadivalr.github.io/issues/new"> report</a> any broken links or other issues you encounter.</p>
+        </p>
+        <p> If you have any questions about me or anything else, feel free to drop me a message.</p>
+<p> Please <a href="http://github.com/gadivalr/gadivalr.github.io/issues/new"> report</a> any broken links or other issues you encounter.</p> <br>
 <strong> Thank you for visiting my blog!  ✨</strong>
-<hr>
-<p> <strong> My favorite albums: </strong></p>
+<br>
+      </div>
+      
+</section>
+<br>
+<center> <p> <strong> My favorite albums: </strong></p></center>
+<br>
 <div class="swiper carousel">
   <div class="swiper-wrapper">
     {% for imagen in site.data.albums %}

@@ -1,7 +1,6 @@
 ---
 title: Serie de Fourier 
 date: 2023-06-18
-layout: post
 tags: [APUNTES]
 comments: true
 usemathjax: true
@@ -121,3 +120,102 @@ Notamos que con ambos métodos se obtiene el mismo resultado, pero el segundo m�
 
 
  Siempre que estemos trabajando con una función impar, podemos usar la propiedad de paridad de la función seno para calcular el coeficiente b_n del mismo modo cuando tengamos una función par podemos usar la propiedad de paridad de la función coseno para calcular el coeficiente a_n.
+
+### Serie de Fourier compleja
+La serie de Fourier compleja es una forma alternativa de escribir la serie de Fourier de una función f(x) definida en el intervalo [ -L,L ]. La serie de Fourier compleja de una función f(x) definida en el intervalo [ -L,L ] es la serie:
+{% raw %}
+$$
+
+\begin{align*}
+f(x) &=\sum_{n=-\infty}^{+\infty} \quad c_n e^{i\frac{n\pi x}{L}}\\
+\end{align*}
+$$
+{% endraw %}
+Donde el coeficiente esta dado por:
+{% raw %}
+$$
+\begin{align*}
+c_n=\frac{1}{2L}\int_{-L}^{L} f(x) e^{-i\frac{n\pi x}{L}} \, dx\\
+\end{align*}
+$$
+{% endraw %}
+
+**Ejemplo: Hallar la S. F compleja de la función en [-π, π]:**
+    
+{% raw %}
+$$
+\begin{align*}
+f(t)&=\cos(\frac{t}{2})\\
+\end{align*}
+$$
+{% endraw %}
+**Solución:**
+Notamos que la función es periodica de periodo 2π, por lo tanto, L=π. <br>
+
+Cálculamos el coeficiente c_n:
+
+{% raw %}
+$$
+\begin{align*}
+c_n&=\frac{1}{2\pi}\int_{-\pi}^{\pi} f(t) e^{-i\frac{n\pi t}{\pi}} \, dt\\
+&=\frac{1}{2\pi}\int_{-\pi}^{\pi} \cos(\frac{t}{2}) e^{-in t} \, dt\\
+&=\frac{1}{2\pi}\int_{-\pi}^{\pi} (\frac{e^{i\frac{t}{2}} + e^{-i\frac{t}{2}}}{2})  e^{-in t} \, dt\\
+&=\frac{1}{4\pi}\int_{-\pi}^{\pi} (e^{i\frac{t}{2}} + e^{-i\frac{t}{2}})  e^{-in t} \, dt\\
+&=\frac{1}{4\pi}\int_{-\pi}^{\pi} e^{i\frac{t}{2}} e^{-in t} \, dt +\frac{1}{4\pi}\int_{-\pi}^{\pi} e^{-i\frac{t}{2}} e^{-in t} \, dt\\
+&=\frac{1}{4\pi}\int_{-\pi}^{\pi} e^{i(\frac{t}{2}-nt)} \, dt +\frac{1}{4\pi}\int_{-\pi}^{\pi} e^{-i(\frac{t}{2}+nt)} \, dt\\
+&=\frac{1}{4\pi} \biggl[ \frac{e^{i(\frac{t}{2}-nt)}}{i(\frac{1}{2}-n)} \biggr]_{-\pi}^{\pi} +\frac{1}{4\pi} \biggl[ \frac{e^{-i(\frac{t}{2}+nt)}}{-i(\frac{1}{2}+n)} \biggr]_{-\pi}^{\pi}\\
+&=\frac{1}{4\pi} \biggl[ \frac{e^{i(\frac{1}{2}-n)\pi}}{i(\frac{1}{2}-n)} -\frac{e^{-i(\frac{1}{2}-n)\pi}}{i(\frac{1}{2}-n)}  + \frac{e^{-i(\frac{1}{2}+n)\pi}}{-i(\frac{1}{2}+n)} -\frac{e^{i(\frac{1}{2}+n)\pi}}{-i(\frac{1}{2}+n)} \biggr]\\
+&=\frac{1}{4\pi} \biggl[ \frac{e^{i(\frac{1}{2}-n)\pi}}{i(\frac{1}{2}-n)} -\frac{e^{-i(\frac{1}{2}-n)\pi}}{i(\frac{1}{2}-n)}  - \frac{e^{-i(\frac{1}{2}+n)\pi}}{i(\frac{1}{2}+n)} +\frac{e^{i(\frac{1}{2}+n)\pi}}{i(\frac{1}{2}+n)} \biggr]\\
+&=\frac{1}{4\pi} \biggl[ \frac{e^{i\frac{\pi}{2}} e^{-in\pi}}{i(\frac{1}{2}-n)} -\frac{e^{-i\frac{\pi}{2}} e^{-in\pi}}{i(\frac{1}{2}-n)}  - \frac{e^{-i\frac{\pi}{2}} e^{ in\pi}}{i(\frac{1}{2}+n)} +\frac{e^{i\frac{\pi}{2}} e^{in\pi}}{i(\frac{1}{2}+n)} \biggr]\\
+&=\frac{1}{4\pi} \biggl[ \frac{i(-1)^n }{i(\frac{1}{2}-n)} -\frac{-i(-1)^n }{i(\frac{1}{2}-n)}  - \frac{-i(-1)^n}{i(\frac{1}{2}+n)} +\frac{i(-1)^n}{i(\frac{1}{2}+n)} \biggr]\\
+&=\frac{1}{4\pi} \biggl[ \frac{2(-1)^n }{(\frac{1}{2}-n)} +\frac{2(-1)^n}{(\frac{1}{2}+n)} \biggr]\\
+&=\frac{(-1)^n}{2\pi} \biggl[ \frac{1 }{(\frac{1}{2}-n)} +\frac{1}{(\frac{1}{2}+n)}\biggr]\\
+&=\frac{(-1)^n}{2\pi} \biggl[ \frac{2 }{(1-2n)} +\frac{2}{(1+2n)}\biggr]\\
+&=\frac{(-1)^n}{\pi} \biggl[ \frac{1 }{(1-2n)} +\frac{1}{(1+2n)}\biggr]\\
+&=\frac{(-1)^n}{\pi} \biggl[ \frac{2 }{(1-4n^2)} \biggr]\\
+
+\end{align*}
+
+
+$$
+{% endraw %}
+
+Por lo tanto, la serie de Fourier de la función es:
+
+{% raw %}
+$$
+\begin{align*}
+f(t)&=\frac{2}{\pi} \sum_{n=-\infty}^{+\infty} \quad \frac{(-1)^n}{(1-4n^2)} e^{in t}\\
+\end{align*}
+$$
+{% endraw %}
+
+Al usar la serie de Fourier compleja, se obtiene un resultado más corto y fácil de calcular que usando la serie de Fourier real. Además, la serie de Fourier compleja es más fácil de manipular que la serie de Fourier real. Por ejemplo, la serie de Fourier compleja es más fácil de derivar e integrar que la serie de Fourier real.
+
+### Recordar las siguientes propiedades de la exponencial compleja:
+{% raw %}
+$$
+\begin{align*}
+e^{i\theta}&=\cos(\theta)+i\sin(\theta)\\
+e^{-i\theta}&=\cos(\theta)-i\sin(\theta)\\
+\cos(\theta)&=\frac{e^{i\theta}+e^{-i\theta}}{2}\\
+\sin(\theta)&=\frac{e^{i\theta}-e^{-i\theta}}{2i}\\
+\cosh(\theta)&=\frac{e^{\theta}+e^{-\theta}}{2}\\
+\sinh(\theta)&=\frac{e^{\theta}-e^{-\theta}}{2}\\
+\end{align*}
+$$
+{% endraw %}
+### Recordar también que:
+{% raw %}
+$$
+\begin{align*}
+\cos(n\pi)&= \cos(-n\pi)={(-1)}^{n}\\
+\sin(n\pi)&=0\\
+\cos(\frac{n\pi}{2})&=0\\
+\sin(\frac{n\pi}{2})&= \sin(-\frac{n\pi}{2})={(-1)}^{n+1}\\
+\end{align*}
+$$
+{% endraw %}
+
+Con estas propiedades podemos calcular la serie de Fourier compleja de una función de forma más fácil y rápida.
+

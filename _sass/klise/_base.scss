@@ -23,15 +23,20 @@ html {
 .mathjax-container,
 mjx-container[jax="SVG"][display="true"] {
   display: flex !important;
-  text-align: left !important;
+  text-align: center !important;
+  justify-content: center !important;
 }
-.mathjax-container,
-mjx-container[jax="CHTML"][display="true"] {
-  display: flex !important;
-  text-align: left !important;
-}
+
 mjx-container[jax="SVG"] > svg {
-  width: 100%;
+  display: flex !important;
+  
+
+}
+.inline-math,
+inline-math  {
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 1px;
 }
 
 body,
@@ -551,4 +556,76 @@ mark,
       border: 0;
     }
   }
+}
+.author-card {
+  display: flex;
+  flex-direction: column;
+   /* Centra los elementos hijos horizontalmente */
+}
+.author-card img {
+ width: 100px; /* Cambia esto al tamaño que desees */
+ height: auto; /* Esto mantendrá la proporción de la imagen */
+ border-radius: 50%; /* Esto hará que la imagen sea redonda */
+}
+
+.author-card h3 {
+ font-size: 20px; /* Cambia esto al tamaño de fuente que desees */
+ color: #333; /* Cambia esto al color que desees */
+}
+
+.author-card p {
+ font-size: 16px; /* Cambia esto al tamaño de fuente que desees */
+ color: #666; /* Cambia esto al color que desees */
+}
+
+.author-card ul {
+ list-style: none; /* Esto eliminará los puntos de la lista */
+}
+
+.author-card ul li a {
+ color: #007BFF; /* Cambia esto al color que desees */
+ text-decoration: none; /* Esto eliminará el subrayado de los enlaces */
+}
+
+.author-card ul li a:hover {
+ color: #0056b3; /* Cambia esto al color que desees cuando se pasa el ratón por encima */
+}
+.winget-sidebar{
+ width: 100%;
+ padding: 20px;
+}
+.secondary{
+  
+  width: auto;
+  background: #eed url(//4.bp.blogspot.com/-O8yztk6WVcU/T0NkbFabmQI/AAAAAAAAAgY/5b0-oJ207os/s000/pattern.png);
+  border-radius: 10px;
+  display: flex;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+@media (max-width: 768px) {
+  .secondary{
+    width: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
+button  {
+  display: block;
+width: 200px;
+height: 50px;
+margin: 20px auto;
+background-color: #4CAF50;
+color: white;
+ border: none;
+  border-radius: 5px;
+ cursor: pointer;
+ font-size: 18px;
+ }
+button:hover {
+background-color: #45a049;
+ }
+btncode,
+.btncode {
+   margin: 1px auto;
 }

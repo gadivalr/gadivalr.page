@@ -1,0 +1,174 @@
+---
+
+permalink: /hbd_german/
+layout: page
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card</title>
+   
+  </head>
+  <body>
+    <audio id="myAudio">
+      <source src="/assets/audio/hbd.mp3" type="audio/mpeg">
+      Tu navegador no soporta el elemento de audio.
+    </audio>
+
+    <style>
+      body {
+  margin: 0;
+  padding: 0;
+  background: #f2f2f2;
+  font-family: "Acme";
+  background: #000;
+  color: wheat;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+@media (max-width: 767px) {
+  .container {
+    margin: 10px auto;
+  }
+}
+.untoldcoding {
+  border-radius: 10px;
+  position: relative;
+  margin: 20px 0;
+  width: 300px;
+  height: 400px;
+  background: linear-gradient(#fef7f7, #9198e5);
+  transform-style: preserve-3d;
+  transform: perspective(2000px);
+  transition: 1s;
+}
+
+.untoldcoding:hover {
+  z-index: 1111;
+  transform: perspective(2000px) rotate(-10deg);
+
+  box-shadow: 5px 5px 20px rgb(235, 151, 128);
+}
+
+.untoldcoding .img-container {
+  border-radius: 10px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  transform-origin: left;
+  z-index: 1;
+  transition: 1s;
+}
+
+.untoldcoding .img-container img {
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.untoldcoding:hover .img-container {
+  transform: rotateY(-135deg);
+}
+
+.untoldcoding .untoldcoding-details {
+  position: absolute;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+  padding: 20px;
+  color: #000;
+  text-align: inherit;
+}
+
+.untoldcoding .untoldcoding-details h2 {
+  margin: 0;
+  padding: 0.5em 0;
+  text-transform: uppercase;
+  font-size: 2em;
+  background: linear-gradient(to right, #f32170, #ff0c08, #710071, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: untold 3s infinite ease-in-out;
+}
+
+@keyframes untold {
+  0% {
+    background: linear-gradient(to right, #f32170, #ff0c08, #710071, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: untold 0.1s infinite ease-in-out;
+  }
+  50% {
+    background: linear-gradient(to right, #2fff00, #1008ff, #ec4705, #a744ee);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: untold 3s infinite ease-in-out;
+  }
+  100% {
+    background: linear-gradient(to right, #f32121, #ff0890, #cdb903, #d122f8);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: untold 1s infinite ease-in-out;
+  }
+}
+.untoldcoding .untoldcoding-details p {
+  margin: 0;
+  padding: 0;
+  line-height: 25px;
+  font-size: 1.3em;
+  font-weight: 900;
+}
+.untoldcoding .untoldcoding-details h3 {
+  margin: 0;
+  padding: 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: 900;
+color:#000}
+    </style>
+    
+    
+    <script>
+    function playAudio() {
+      var audio = document.getElementById("myAudio");
+      audio.play();
+    }
+    </script>
+    <div class="texto"  style=" text-align: center; color:antiquewhite; margin-bottom:0px; ">
+      <h1>¡Feliz cumpleaños!</h1> <br />
+
+    <div class="container" onclick="playAudio()">
+      <div class="untoldcoding">
+        <div class="img-container">
+          <img
+            src="/assets/img/G3.jpeg"
+            alt=""
+          />
+        </div>
+        <div class="untoldcoding-details " style="text-align: left; color:#000; ">
+          <h2>Happy Birthday!</h2>
+          <h3> 
+            ¡Feliz cumpleaños, Germancito! Que Dios te bendiga siempre, espero que este año este lleno de felicidad y todas esas cosas que llenan tu corazón de alegria, que todos tus objetivos se cumplan y que te sientas amado y celebrado no solo hoy, si no todos los días. 
+          </h3>
+         
+
+          Gadi
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

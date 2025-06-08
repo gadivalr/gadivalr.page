@@ -6,8 +6,7 @@
   position: relative;
   margin-right: auto;
   margin-left: auto;
-  background: #eeeedd;
-  border-bottom: 1px solid $light;
+  border-bottom: 1px ;
   padding: $spacing-full - 15px $spacing-full;
   @extend %clearfix;
 }
@@ -113,7 +112,7 @@
     z-index: 2;
     text-align: center;
     height: 60px;
-    background-color: #eed;
+    background: #eed ;
     border-bottom: 1px solid $light;
 
     a#mode {
@@ -373,7 +372,8 @@
   margin-bottom: 15px;
   border-radius: 5px;
   padding: 10px;
-  background-color: #eed;
+
+  background: #eed ;
 }
 .post-card .post-tags .tag {
   color: #3c84c0;
@@ -389,7 +389,7 @@
 }
 [data-theme="dark"]{
   .post-card{
-    background-color: #131418;
+    background: #131418 ;
   }
   .post-card .post-tags .tag {
     color: #f0c87e;
