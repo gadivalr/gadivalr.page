@@ -136,14 +136,20 @@ body[data-theme="dark"] {
   b {
     color: $dark-white;
   }
-
+  .secondary{
+    background: #13131a url(//4.bp.blogspot.com/-O8yztk6WVcU/T0NkbFabmQI/AAAAAAAAAgY/5b0-oJ207os/s000/pattern.png);
+  }
+.secondary-p{
+  background: #13131a url(//4.bp.blogspot.com/-O8yztk6WVcU/T0NkbFabmQI/AAAAAAAAAgY/5b0-oJ207os/s000/pattern.png);
+}
   // Navbar
   .navbar {
     border-color: $dark-light;
+    background: #131418;
     .menu {
       a#mode {
         .mode-sunny {
-          display: block;
+          display: none;
         }
         .mode-moon {
           display: none;
